@@ -36,7 +36,6 @@ func loginRequest(username : String, password : String, webView: WKWebView) {
         "login": "Login"
     ]
     
-    // All three of these calls are equivalent
     Alamofire.request("https://rainwave.cc/forums/ucp.php?mode=login", method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: headers).response {
         response in webView.load(NSURLRequest(url: (response.response?.url)!) as URLRequest)
     }

@@ -14,6 +14,10 @@
 		145032CB1D9AE0200013EBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145032C91D9AE0200013EBD6 /* LaunchScreen.storyboard */; };
 		145032D61D9AE0200013EBD6 /* RainwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032D51D9AE0200013EBD6 /* RainwaveTests.swift */; };
 		145032E11D9AE0200013EBD6 /* RainwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032E01D9AE0200013EBD6 /* RainwaveUITests.swift */; };
+		145032EF1D9AE0770013EBD6 /* RainwaveLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032EE1D9AE0770013EBD6 /* RainwaveLib.swift */; };
+		79B759678875AC17E12C86E9 /* Pods_Rainwave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AEE264292FC98B15CD272 /* Pods_Rainwave.framework */; };
+		B3C3E60FAF7148D28578DCEB /* Pods_RainwaveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A19F8A80BD4D014D4BB949 /* Pods_RainwaveTests.framework */; };
+		C3ED3CA3C6880F194EC05528 /* Pods_RainwaveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053E098DFD00195705FA544F /* Pods-RainwaveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainwaveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainwaveUITests/Pods-RainwaveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		145032BD1D9AE0200013EBD6 /* Rainwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		145032C01D9AE0200013EBD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		145032C21D9AE0200013EBD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		145032DC1D9AE0200013EBD6 /* RainwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145032E01D9AE0200013EBD6 /* RainwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainwaveUITests.swift; sourceTree = "<group>"; };
 		145032E21D9AE0200013EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145032EE1D9AE0770013EBD6 /* RainwaveLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainwaveLib.swift; sourceTree = "<group>"; };
+		15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainwaveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		219BC68B6A1BD0E59EBC56C7 /* Pods-Rainwave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainwave.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave.release.xcconfig"; sourceTree = "<group>"; };
+		47F6DD4219ADD71E3293B80D /* Pods-Rainwave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainwave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave.debug.xcconfig"; sourceTree = "<group>"; };
+		580AEE264292FC98B15CD272 /* Pods_Rainwave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rainwave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6661D42CF24DABCC24336098 /* Pods-RainwaveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainwaveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainwaveUITests/Pods-RainwaveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1A19F8A80BD4D014D4BB949 /* Pods_RainwaveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainwaveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D014EDE3A34384FC0BFF987D /* Pods-RainwaveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainwaveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainwaveTests/Pods-RainwaveTests.release.xcconfig"; sourceTree = "<group>"; };
+		E258BD0518A01CF88F9F2FCF /* Pods-RainwaveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainwaveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainwaveTests/Pods-RainwaveTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B759678875AC17E12C86E9 /* Pods_Rainwave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C3E60FAF7148D28578DCEB /* Pods_RainwaveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3ED3CA3C6880F194EC05528 /* Pods_RainwaveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				145032D41D9AE0200013EBD6 /* RainwaveTests */,
 				145032DF1D9AE0200013EBD6 /* RainwaveUITests */,
 				145032BE1D9AE0200013EBD6 /* Products */,
+				179633B7D867EB7FFC7FFDF5 /* Pods */,
+				69E955DBEC1570A75D007E7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +118,10 @@
 			children = (
 				145032C01D9AE0200013EBD6 /* AppDelegate.swift */,
 				145032C21D9AE0200013EBD6 /* ViewController.swift */,
-				145032C41D9AE0200013EBD6 /* Main.storyboard */,
+				145032EE1D9AE0770013EBD6 /* RainwaveLib.swift */,
 				145032C71D9AE0200013EBD6 /* Assets.xcassets */,
 				145032C91D9AE0200013EBD6 /* LaunchScreen.storyboard */,
+				145032C41D9AE0200013EBD6 /* Main.storyboard */,
 				145032CC1D9AE0200013EBD6 /* Info.plist */,
 			);
 			path = Rainwave;
@@ -125,6 +145,29 @@
 			path = RainwaveUITests;
 			sourceTree = "<group>";
 		};
+		179633B7D867EB7FFC7FFDF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47F6DD4219ADD71E3293B80D /* Pods-Rainwave.debug.xcconfig */,
+				219BC68B6A1BD0E59EBC56C7 /* Pods-Rainwave.release.xcconfig */,
+				E258BD0518A01CF88F9F2FCF /* Pods-RainwaveTests.debug.xcconfig */,
+				D014EDE3A34384FC0BFF987D /* Pods-RainwaveTests.release.xcconfig */,
+				6661D42CF24DABCC24336098 /* Pods-RainwaveUITests.debug.xcconfig */,
+				053E098DFD00195705FA544F /* Pods-RainwaveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69E955DBEC1570A75D007E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				580AEE264292FC98B15CD272 /* Pods_Rainwave.framework */,
+				B1A19F8A80BD4D014D4BB949 /* Pods_RainwaveTests.framework */,
+				15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 145032E51D9AE0200013EBD6 /* Build configuration list for PBXNativeTarget "Rainwave" */;
 			buildPhases = (
+				E89495B81537DD49D8DE9439 /* [CP] Check Pods Manifest.lock */,
 				145032B91D9AE0200013EBD6 /* Sources */,
 				145032BA1D9AE0200013EBD6 /* Frameworks */,
 				145032BB1D9AE0200013EBD6 /* Resources */,
+				58A2FD65E417E956A07D6872 /* [CP] Embed Pods Frameworks */,
+				071E4B9F71DE3083B857CAEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 145032E81D9AE0200013EBD6 /* Build configuration list for PBXNativeTarget "RainwaveTests" */;
 			buildPhases = (
+				74E489FAD35EE4B496CFFCFA /* [CP] Check Pods Manifest.lock */,
 				145032CD1D9AE0200013EBD6 /* Sources */,
 				145032CE1D9AE0200013EBD6 /* Frameworks */,
 				145032CF1D9AE0200013EBD6 /* Resources */,
+				1A9051571EA615D8B3E26845 /* [CP] Embed Pods Frameworks */,
+				D6FF36F94E21CA9569EBB596 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 145032EB1D9AE0200013EBD6 /* Build configuration list for PBXNativeTarget "RainwaveUITests" */;
 			buildPhases = (
+				5204EB114B8EA0982947A27A /* [CP] Check Pods Manifest.lock */,
 				145032D81D9AE0200013EBD6 /* Sources */,
 				145032D91D9AE0200013EBD6 /* Frameworks */,
 				145032DA1D9AE0200013EBD6 /* Resources */,
+				9E0D2DD9BC56E767EFB3294F /* [CP] Embed Pods Frameworks */,
+				462D88E4D8DBD66F9A512B89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +247,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = ZP2LFA84SP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					145032D01D9AE0200013EBD6 = {
 						CreatedOnToolsVersion = 8.0;
@@ -257,11 +314,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		071E4B9F71DE3083B857CAEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9051571EA615D8B3E26845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainwaveTests/Pods-RainwaveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		462D88E4D8DBD66F9A512B89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainwaveUITests/Pods-RainwaveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5204EB114B8EA0982947A27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58A2FD65E417E956A07D6872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E489FAD35EE4B496CFFCFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0D2DD9BC56E767EFB3294F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainwaveUITests/Pods-RainwaveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FF36F94E21CA9569EBB596 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainwaveTests/Pods-RainwaveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89495B81537DD49D8DE9439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		145032B91D9AE0200013EBD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145032EF1D9AE0770013EBD6 /* RainwaveLib.swift in Sources */,
 				145032C31D9AE0200013EBD6 /* ViewController.swift in Sources */,
 				145032C11D9AE0200013EBD6 /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +609,7 @@
 		};
 		145032E61D9AE0200013EBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F6DD4219ADD71E3293B80D /* Pods-Rainwave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
@@ -426,6 +623,7 @@
 		};
 		145032E71D9AE0200013EBD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219BC68B6A1BD0E59EBC56C7 /* Pods-Rainwave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
@@ -439,6 +637,7 @@
 		};
 		145032E91D9AE0200013EBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E258BD0518A01CF88F9F2FCF /* Pods-RainwaveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +653,7 @@
 		};
 		145032EA1D9AE0200013EBD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D014EDE3A34384FC0BFF987D /* Pods-RainwaveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +669,7 @@
 		};
 		145032EC1D9AE0200013EBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6661D42CF24DABCC24336098 /* Pods-RainwaveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
@@ -483,6 +684,7 @@
 		};
 		145032ED1D9AE0200013EBD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053E098DFD00195705FA544F /* Pods-RainwaveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
@@ -514,6 +716,7 @@
 				145032E71D9AE0200013EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		145032E81D9AE0200013EBD6 /* Build configuration list for PBXNativeTarget "RainwaveTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +725,7 @@
 				145032EA1D9AE0200013EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		145032EB1D9AE0200013EBD6 /* Build configuration list for PBXNativeTarget "RainwaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +734,7 @@
 				145032ED1D9AE0200013EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

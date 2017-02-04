@@ -41,6 +41,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    override func remoteControlReceived(with event: UIEvent?) {
+        guard let event = event else {
+            print("no event\n")
+            return
+        }
+        guard event.type == UIEventType.remoteControl else {
+            print("received other event type\n")
+            return
+        }
+        switch event.subtype {
+        case UIEventSubtype.remoteControlPlay:
+            RadioPlayer.sharedInstance.play()
+        case UIEventSubtype.remoteControlPause:
+            RadioPlayer.sharedInstance.pause()
+        case UIEventSubtype.remoteControlTogglePlayPause:
+            RadioPlayer.sharedInstance.toggle()
+        default:
+            print("received \(event.subtype) which we did not process\n")
+        }
+    }
 
 }
 

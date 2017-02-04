@@ -15,6 +15,12 @@
 		145032D61D9AE0200013EBD6 /* RainwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032D51D9AE0200013EBD6 /* RainwaveTests.swift */; };
 		145032E11D9AE0200013EBD6 /* RainwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032E01D9AE0200013EBD6 /* RainwaveUITests.swift */; };
 		145032EF1D9AE0770013EBD6 /* RainwaveLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145032EE1D9AE0770013EBD6 /* RainwaveLib.swift */; };
+		148223D81E41448B009123C7 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148223D71E41448A009123C7 /* Song.swift */; };
+		149579AB1E43BAC800B2A7A3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 149579AA1E43BAC800B2A7A3 /* Settings.bundle */; };
+		149579AD1E43BD2A00B2A7A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579AC1E43BD2A00B2A7A3 /* User.swift */; };
+		14BE4C501E413197002B3D8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BE4C4F1E413197002B3D8B /* AVFoundation.framework */; };
+		14BE4C521E413311002B3D8B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BE4C511E413311002B3D8B /* MediaPlayer.framework */; };
+		14BE4C541E413440002B3D8B /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BE4C531E413440002B3D8B /* RadioPlayer.swift */; };
 		79B759678875AC17E12C86E9 /* Pods_Rainwave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AEE264292FC98B15CD272 /* Pods_Rainwave.framework */; };
 		B3C3E60FAF7148D28578DCEB /* Pods_RainwaveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A19F8A80BD4D014D4BB949 /* Pods_RainwaveTests.framework */; };
 		C3ED3CA3C6880F194EC05528 /* Pods_RainwaveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */; };
@@ -53,6 +59,12 @@
 		145032E01D9AE0200013EBD6 /* RainwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainwaveUITests.swift; sourceTree = "<group>"; };
 		145032E21D9AE0200013EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		145032EE1D9AE0770013EBD6 /* RainwaveLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainwaveLib.swift; sourceTree = "<group>"; };
+		148223D71E41448A009123C7 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		149579AA1E43BAC800B2A7A3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		149579AC1E43BD2A00B2A7A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		14BE4C4F1E413197002B3D8B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14BE4C511E413311002B3D8B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		14BE4C531E413440002B3D8B /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
 		15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainwaveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219BC68B6A1BD0E59EBC56C7 /* Pods-Rainwave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainwave.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave.release.xcconfig"; sourceTree = "<group>"; };
 		47F6DD4219ADD71E3293B80D /* Pods-Rainwave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainwave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rainwave/Pods-Rainwave.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BE4C521E413311002B3D8B /* MediaPlayer.framework in Frameworks */,
+				14BE4C501E413197002B3D8B /* AVFoundation.framework in Frameworks */,
 				79B759678875AC17E12C86E9 /* Pods_Rainwave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +137,10 @@
 				145032C91D9AE0200013EBD6 /* LaunchScreen.storyboard */,
 				145032C41D9AE0200013EBD6 /* Main.storyboard */,
 				145032CC1D9AE0200013EBD6 /* Info.plist */,
+				14BE4C531E413440002B3D8B /* RadioPlayer.swift */,
+				148223D71E41448A009123C7 /* Song.swift */,
+				149579AC1E43BD2A00B2A7A3 /* User.swift */,
+				149579AA1E43BAC800B2A7A3 /* Settings.bundle */,
 			);
 			path = Rainwave;
 			sourceTree = "<group>";
@@ -161,6 +179,8 @@
 		69E955DBEC1570A75D007E7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14BE4C511E413311002B3D8B /* MediaPlayer.framework */,
+				14BE4C4F1E413197002B3D8B /* AVFoundation.framework */,
 				580AEE264292FC98B15CD272 /* Pods_Rainwave.framework */,
 				B1A19F8A80BD4D014D4BB949 /* Pods_RainwaveTests.framework */,
 				15FF20C7EB7EFE166ADFAB77 /* Pods_RainwaveUITests.framework */,
@@ -240,7 +260,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Guus Beckett";
 				TargetAttributes = {
 					145032BC1D9AE0200013EBD6 = {
@@ -250,6 +270,12 @@
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
 							};
 						};
 					};
@@ -292,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149579AB1E43BAC800B2A7A3 /* Settings.bundle in Resources */,
 				145032CB1D9AE0200013EBD6 /* LaunchScreen.storyboard in Resources */,
 				145032C81D9AE0200013EBD6 /* Assets.xcassets in Resources */,
 				145032C61D9AE0200013EBD6 /* Main.storyboard in Resources */,
@@ -457,9 +484,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BE4C541E413440002B3D8B /* RadioPlayer.swift in Sources */,
 				145032EF1D9AE0770013EBD6 /* RainwaveLib.swift in Sources */,
+				149579AD1E43BD2A00B2A7A3 /* User.swift in Sources */,
 				145032C31D9AE0200013EBD6 /* ViewController.swift in Sources */,
 				145032C11D9AE0200013EBD6 /* AppDelegate.swift in Sources */,
+				148223D81E41448B009123C7 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +562,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -582,6 +613,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -611,7 +643,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47F6DD4219ADD71E3293B80D /* Pods-Rainwave.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
 				INFOPLIST_FILE = Rainwave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -625,7 +660,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 219BC68B6A1BD0E59EBC56C7 /* Pods-Rainwave.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ZP2LFA84SP;
 				INFOPLIST_FILE = Rainwave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

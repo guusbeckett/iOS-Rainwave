@@ -7,6 +7,8 @@ use_frameworks!
 
 target 'Rainwave' do
     pod 'Alamofire', '~> 4.0'
+    pod 'SwiftyJSON'
+    pod 'AlamofireImage', '~> 3.1'
 end
 
 target 'RainwaveTests' do
